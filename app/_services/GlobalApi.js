@@ -1,7 +1,7 @@
 import { request, gql } from 'graphql-request';
 //const { gql, default: request } = require("graphql-request")
 
-const MASTER_URL='https://api-eu-west-2.hygraph.com/v2/'+process.env.NEXT_PUBLIC_MASTER_URL_KEY+'/master'
+const MASTER_URL='https://api-eu-west-2.hygraph.com/v2/'+process.env.MASTER_URL+'/master'
 
 const getCategory=async()=>{
     const query=gql`
