@@ -1,4 +1,4 @@
-### APT 4900 - Final Project
+# APT 4900 - Final Project
 
 ## Build Details
 
